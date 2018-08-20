@@ -1,4 +1,5 @@
 provider "aws" {
+  profile = "mac-personal" // Grabs creds from .aws/credentials or /config, need to figure out which
   region = "us-east-1"
 }
 
